@@ -323,8 +323,7 @@ img {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
-    /* align-items: stretch; */
+    justify-content: center;
     gap: 24px;
     
 }
@@ -439,8 +438,8 @@ img {
 .footer {
     background-color: var(--title-background-color-dark);
     color: var(--background-color-team);
-    padding-top: 100px;
-    padding-bottom: 100px; 
+    padding-top: 96px;
+    padding-bottom: 96px; 
 }
 
 .footer-link {
@@ -449,12 +448,12 @@ img {
 }
 
 .footer-container {
-    display: flex;
-    align-items: baseline;
+    /* display: flex;
+    align-items: baseline; */
 }
 
 .footer-logo-box {
-    margin-right: 120px;
+    /* margin-right: 120px; */
 }
 
 .footer-logo-studio {
@@ -462,17 +461,13 @@ img {
 }
 
 .footer-text {
+
+    align-items: center;
     max-width: 264px;
     font-size: 16px;
     line-height: 1.5;   
     letter-spacing: 0.02em;
 
-}
-
-
-.footer-soc-container {
-   
-   
 }
 
 .footer-soc-title {
@@ -565,16 +560,11 @@ img {
 
 .subscribe-btn {
     min-width: 165px;
-    height: 40px;
+    /* height: 40px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: var(--font-text-base);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    border-radius: 4px;
+    padding: 8px 24px;
     border: none;
     color: var(--backgrond-color-light);
     background-color: var(--primary-brand-color);
