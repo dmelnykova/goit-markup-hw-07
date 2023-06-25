@@ -90,7 +90,8 @@
     }
 
     .team>.container,
-    .customers>.container {
+    .customers>.container, 
+    .footer>.container {
         max-width: 552px;
     }
 
@@ -129,23 +130,54 @@
  /* footer */
 
     .footer-container {
-        text-align: center;
+        flex-direction: row;        
+        flex-wrap: wrap;
+        align-items: baseline;
+        row-gap: 72px;
+        column-gap: 24px;
+    }
+
+    .footer-logo-box {
+        align-items: flex-start;
+
+    }
+
+    .footer-link {
         
     }
 
-    .footer-text {
+    /* .footer-text {
         text-align: left;
         margin-right: auto;
         margin-left: auto;
-    }
+    }*/
 
     .footer-soc-container {
-        margin-bottom: 72px;
+        /* flex-wrap: wrap; */
+        /* margin-bottom: 72px; */
+        /* align-items: flex-start; */
+    }
+
+    .footer-soc-title {
+        text-align: start;
+    }
+
+    .footer-form-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-form {
+        display: flex;
+    }
+
+    .footer-input {
+        width: 264px;
+        margin-right: 24px;
     }
 
     .subscribe-btn {
-        margin-right: auto;
-        margin-left: auto;
+        margin: 0;
     }
 
 
