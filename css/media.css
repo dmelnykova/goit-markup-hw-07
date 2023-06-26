@@ -18,6 +18,11 @@
     .modal {
        width: 408px;
     }
+
+    .header>.container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
     
  /* header */
 
@@ -215,6 +220,7 @@
     .header-container {
         justify-content: space-between;
     }
+       
     .header-address-list {
         display: flex;
         margin-left: auto;
