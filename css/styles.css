@@ -152,7 +152,6 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
 }
 
 .header-logo {
@@ -167,6 +166,11 @@ img {
 
 .logo-studio {
     color: var(--title-background-color-dark);
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
 }
 
 .header-address {
@@ -197,6 +201,24 @@ img {
     display: block;
     height: 22px;
     background-color: transparent;
+}
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 32px;
+    background-color: #3f51b5;
+    z-index: 999;
+
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.menu-container.is-open {
+    transform: translateX(0);
 }
 
 .modal-close-svg {
@@ -478,6 +500,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 74px;
 }
 
 .footer-logo-box {
