@@ -10,7 +10,8 @@
     .container {
         max-width: 766px;
     }
-    /* header */
+    
+ /* header */
 
     .header-list {
         gap: 40px;
@@ -23,50 +24,6 @@
         transition: color var(--transform-all);
     }
 
-    .header-container, 
-    .header-navigation,
-    .header-list, 
-    .header-address, 
-    .header-address-list {
-        display: flex;
-        align-items: center;
-    }
-
-    .header-address-list {
-        gap: 40px;
-    }
-
-    .header-address {
-        font-style: normal;
-        margin-left: auto;
-        display: block;
-    }
-
-    .header-address-link {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--text-color);
-        display: block;
-        padding: 24px 0;
-        transition: color var(--transform-all);
-    }
-
-    .header-item {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--title-background-color-dark);
-        position: relative;
-    }
-
-    .header-link:hover,
-    .header-link:focus,
-    .header-address-link:hover,
-    .header-address-link:focus {
-        color: var(--pressed-state-color);
-    }
 
     /* hero */
     .hero {
@@ -95,7 +52,7 @@
         max-width: 552px;
     }
 
-    /* features */
+ /* features */
 
     .features-list {
         row-gap: 72px;
@@ -109,7 +66,6 @@
     .features-subtitle {
         text-align: start;
     }
-
 
     /* team */
     
@@ -172,6 +128,52 @@
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
+    }
+
+ /* header */
+    .header-container, 
+    .header-navigation,
+    .header-list, 
+    .header-address, 
+    .header-address-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-address-list {
+        gap: 40px;
+    }
+
+    .header-address {
+        font-style: normal;
+        margin-left: auto;
+        display: block;
+    }
+
+    .header-address-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--text-color);
+        display: block;
+        padding: 24px 0;
+        transition: color var(--transform-all);
+    }
+
+    .header-item {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--title-background-color-dark);
+        position: relative;
+    }
+
+    .header-link:hover,
+    .header-link:focus,
+    .header-address-link:hover,
+    .header-address-link:focus {
+        color: var(--pressed-state-color);
     }
 
  /* hero */
