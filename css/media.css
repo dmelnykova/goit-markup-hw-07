@@ -309,7 +309,8 @@
     }
     
     .doing {
-        
+        display: block;
+        padding-bottom: 120px;
     }
 
  /* team */
