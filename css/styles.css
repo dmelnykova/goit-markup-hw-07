@@ -133,8 +133,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 
 .header-list {
@@ -176,23 +176,6 @@ img {
 .header-address {
     display: none;
 }
-
-
-/* .current-page {
-    color: var(--pressed-state-color);
-}
-
-.current-page::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    width: 100%;
-    height: 4px;
-    background-color: var(--pressed-state-color);
-    border-radius: 2px;
-    
-} */
 
 .menu-open-btn {
     margin-left: auto;
