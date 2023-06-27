@@ -396,10 +396,6 @@ img {
    /* padding-bottom: 120px;  */
 }
 
-.doing-container {
-    
-}
-
 .doing-list {
     display: flex;
     align-items: flex-start;
@@ -568,7 +564,6 @@ img {
     font-size: 16px;
     line-height: 1.5;   
     letter-spacing: 0.02em;
-
 }
 
 .footer-soc-title {
