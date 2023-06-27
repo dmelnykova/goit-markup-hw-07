@@ -276,16 +276,20 @@ img {
     color: var(--pressed-state-color);
 }
 
+.mob-wrap {
+
+}
+
 .mob-menu-address {
     margin-bottom: 48px;
 }
 
 .mob-menu-address-link.phone {
-    font-size: 24px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-brand-color);
     display: block;
@@ -297,7 +301,7 @@ img {
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
     color: var(--text-color);
 }
 
@@ -305,7 +309,7 @@ img {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 30px;
+    gap: 56px;
 }
 
 /**--hero--**/
@@ -498,14 +502,11 @@ img {
     padding-bottom: 96px;
 }
 
-.customers-container {}
-
-.customers-title {}
-
 .customers-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 72px;
 }
 
 .customers-item {
@@ -628,6 +629,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    text-align: center;
 }
 
 .footer-input {
