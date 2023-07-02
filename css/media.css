@@ -191,6 +191,10 @@
         flex-direction: column;
     }
 
+    .sub-form-title {
+        text-align: left;
+    }
+
     .footer-form {
         display: flex;
     }

@@ -318,6 +318,7 @@ img {
     background-size: cover;
     padding-top: 112px;
     padding-bottom: 112px;
+    margin: 0 auto;
 }
 
 @media (min-device-pixel-ratio: 2),
